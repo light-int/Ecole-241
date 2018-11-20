@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Emploi du temps</title>
+  </head>
+  <body>
+    <header>
+      <div align="left">
+        <article>
+            <b>ECOLE 241</b><br>
+            <b>OGOOUE LABS</b><br>
+            Libreville 2018
+        </article>
+      </div>
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <!-- container -->
+    <section class="container">
+
+      <div align="center">
+        <h1>EMPLOI DU TEMPS</h1>
+        <br>
+        <!-- tableau -->
+        <table border="1" cellspacing="0" cellpadding="8">
+          <thead>
+            <td width="100" bgcolor="D9EBFF"><b>Horraires</b></td>
+            <td bgcolor="D9EBFF"><b>Lundi</b></td>
+            <td bgcolor="D9EBFF"><b>Mardi</b></td>
+            <td bgcolor="D9EBFF"><b>Mercredi</b></td>
+            <td bgcolor="D9EBFF"><b>Jeudi</b></td>
+            <td bgcolor="D9EBFF"><b>Vendredi</b></td>
+            <td bgcolor="D9EBFF"><b>Samedi</b></td>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>8h - 12h</b></td>
+              <td>Veilles technologique</td>
+              <td>Veilles technologique</td>
+              <td>Veilles technologique</td>
+              <td>Veilles technologique</td>
+              <td bgcolor="FF8481">Hackaton</td>
+              <td rowspan="2" bgcolor="FF8481">Hackaton</td>
+            </tr>
+            <tr>
+              <td><b>12h - 13h</b></td>
+              <td colspan="5" bgcolor="FFFDBF"> <marquee behavior="" direction="left"><b>P <span> </span><span> </span>A <span> </span><span> </span>U <span> </span><span> </span>S <span> </span><span> </span>E </span> </span></marquee></td>
+            </tr>
+            <tr>
+              <td><b>13h - 18h</b></td>
+              <td>Traveaux pratiques</td>
+              <td>Traveaux pratiques</td>
+              <td>Traveaux pratiques</td>
+              <td>Traveaux pratiques</td>
+              <td bgcolor="FF8481">Hackaton</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- fin du tableau -->
+      </div>
+      <br>
+      <h2 align="center">DIRECTION GENERAL</h2>
+      <br>
+      <p align="right"><em>Fait a libreville le 20 novembre 2018</em></p>
+    </section>
+    <!-- fin du container -->
+  </body>
+</html>
+<
