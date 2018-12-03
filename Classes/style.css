@@ -1,0 +1,12 @@
+.text-color{
+    display: inline;
+}
+.bg1-all {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    margin: 20px;
+}
+.bg1-all p{
+    color: #fff;
+}
