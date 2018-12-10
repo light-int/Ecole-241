@@ -1,2 +1,2 @@
 # Lettre
-La vie est belle
+**La vie est belle**
