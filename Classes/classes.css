@@ -34,15 +34,10 @@
 
 /*classes de polices*/
 
-.t-small {  font-size: small;  }
-.t-tiny {  font-size: smaller;  }
-.t-x-small {  font-size: x-small;  }
-.t-xx-small {  font-size: xx-small;  }
-.t-medium {  font-size: medium;  }
-.t-big {  font-size: large;  }
-.t-bigger {  font-size: larger;  }
-.t-x-bigger {  font-size: x-large;  }
-.t-xx-bigger {  font-size: xx-large;  }
+.t-big {  font-size: 1.5em;  }
+.t-bigger {  font-size: 2.0em;  }
+.t-x-bigger {  font-size: 3em;  }
+.t-xx-bigger {  font-size: 4em;  }
 
 /*classes de text*/
 /********************************************/
@@ -240,6 +235,3 @@
 .p-x-30 {  padding-left: 30px; padding-right: 30px; }
 .p-x-40 {  padding-left: 40px; padding-right: 40px; }
 .p-x-50 {  padding-left: 50px; padding-right: 50px; }
-.back {
-    background-size:  ;
-}
