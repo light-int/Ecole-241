@@ -1,0 +1,44 @@
+body{
+  margin:0;
+  padding: 0;
+}
+#wrapper {
+  font-family: cursive;
+  color: #fff;
+  box-sizing: border-box;
+}
+.left{
+  float: left;
+  background: url(https://cdn.lifehack.org/wp-content/uploads/2015/04/download1.jpg);
+  background-size: cover;
+  width: 60%;
+  height:100vh;
+  text-align: center;
+}
+.banner{
+  width: 500px;
+  height:auto;
+  margin: 150px auto;
+  font-size: 36px;
+  font-family: cursive;
+  color: #e47c27;
+  line-height: 36px;
+}
+.first{
+  color: #fff;
+  font-size: 1.2em;
+  font-family: 'Monoton', cursive;
+  font-weight: 100;
+}
+.two{
+  color: #fff;
+  font-size: 36px;
+}
+.right {
+  width: 40%;
+  float: right;
+}
+.banner p{
+  font-size: 24px;
+
+}
