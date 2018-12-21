@@ -65,6 +65,10 @@ p {
     background: #40B870;
     color: #ffffff;
 }
+.active {
+    background: #40B870;
+    color: #fff !important;
+}
 .heading {
     margin: 50px auto 0 auto;
     width: 95%;

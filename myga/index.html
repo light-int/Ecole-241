@@ -4,65 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>.ga</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">     
-    <link rel="stylesheet" href="assets/css/style2.css">
+    <title>MY.GA</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Thasadith" rel="stylesheet"> 
+    <!-- slider css -->
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="assets/css/style3.css">
 </head>
 <body>
-    <div id="main">
-        <div class="overlay"></div>
-        <div class="img-banner"></div>
-        <!-- Header -->
-        <header class="navbar grid container">
-            <div class="nav-logo">
-                <img class="logo-img" src="assets/img/logo.png" alt="logo">
+    <div id="wrapper">
+        <div class="header">
+            <!-- Bar de navigation -->
+            <div class="navbar">
+                <div class="nav-logo">
+                    <img src="assets/img/logo.png" alt="logo" class="logo">
+                </div>
+                <div class="nav-links">
+                    <nav class="links" role="navigation">
+                        <!-- <a href="#">Accueil</a>
+                        <a href="#">contact</a>
+                        <a href="#">A propos</a> -->
+                        <a href="#">Se connecter</a>
+                        <a href="#"><img src="assets/img/en.jpg" alt="en" class="flag" title="Anglais"></a>
+                        <a href="#" class="active"><img src="assets/img/fr.png" alt="fr" class="flag" title="Francais"></a>
+                    </nav>
+                </div>
             </div>
-            <div class="nav-links">
-                <a href="#">Se connecter</a>
-                <a href="#">FR</a>
-                <a href="#">EN</a>
+        </div> 
+   
+        <!-- Banniere -->
+        <div class="banner">
+            <!-- <div class="overlay"></div> -->
+            <div class="banner-title">
+            <p><span>Enregistrez</span> votre domaine .GA <span>gratuit</span></p>
+            <a href="#form" class="banner-btn">Commencer</a>
             </div>
-        </header>
+        </div>
 
-        <!-- Heading -->
-        <section class="heading grid">
-            <div class="big-title">
-                <div class="title">
-                    <p>Enregistrez votre domaine .GA <span>GR</span><span>ATU</span><span>IT</span></p>
-                </div>
-            </div>
-            <div class="form-submit">
-                <div class="domain-form">
+        <!-- Main -->
+        <div class="main">
+            <div class="domain-form" id="form">
+                <form action="#">
                     <input type="text" name="domain" id="domain" value=".ga">
-                    <input type="submit" value="GO">
+                    <br>
+                    <div class="submit">
+                        <input type="submit" value="GO">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="end">
+            <div class="f-content">
+                <div class="f-links">
+                    <ul>
+                        <li>
+                            <b><p>MY.GA</p></b>
+                        </li>
+                        <li>
+                            <a href="#">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="">WHOIS</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="f-links">
+                    <ul>
+                        <li>
+                            <b><p>Societe</p></b>
+                        </li>
+                        <li>
+                            <a href="#">A propos</a>
+                        </li>
+                        <li>
+                            <a href="#">Politiques</a>
+                        </li>
+                        <li>
+                            <a href="#">Bureaux d'eregistrement</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="f-links">
+                    <ul>
+                        <li>
+                            <b><p>Assurance</p></b>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Contactez-nous</a>
+                        </li>
+                        <li>
+                            <a href="#">API</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </footer>      
     </div>
-    <footer class="grid container">
-        <div class="footer-col">
-            <ul>
-                <li><h5>My GA</h5></li>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">WHOIS</a></li>
-            </ul> 
-        </div>
-        <div class="footer-col">
-            <ul>
-                <li><h5>Societe</h5></li>
-                <li><a href="#">A propos</a></li>
-                <li><a href="#">Politiques</a></li>
-                <li><a href="#">Bureaux d'Enregistrement</a></li>
-            </ul> 
-        </div>
-        <div class="footer-col">
-            <ul>
-                <li><h5>Assurance</h5></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contactez-Nous</a></li>
-                <li><a href="#">API</a></li>
-            </ul>  
-        </div>
-    </footer>
 </body>
 </html>

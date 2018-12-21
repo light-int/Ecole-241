@@ -68,6 +68,10 @@ p {
     background: #40B870;
     color: #ffffff;
 }
+.active {
+    background: #40B870;
+    color: #fff !important;
+}
 
 /* Banner */
 
