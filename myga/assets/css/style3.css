@@ -100,7 +100,7 @@ body {
     box-shadow: -1px 9px 58px -10px rgba(0,0,0,1);
 }
 .banner-btn:hover {
-    background: #87e990;
+    background: #1fa055;
 
 }
 .main {
@@ -136,7 +136,7 @@ body {
     box-shadow: -1px 9px 58px -10px rgba(0,0,0,1);
 }
 .main input[type=submit]:hover {
-    background-color: #87e990;
+    background-color: #1fa055;
 }
 .main input[value="GO"] {
     color: #ffffff;
