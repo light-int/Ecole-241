@@ -58,11 +58,11 @@ body {
 .active {
     width: 100%;
     color: #fff;
-    background: #e62739;
+    background: #16b84e;
 }
 .links a:hover {
     color: #fff;
-    background: #e62739;
+    background: #16b84e;
 }
 
 /* Banner */
@@ -90,7 +90,7 @@ body {
     text-align: center;
     display: block;
     color: #fff;
-    background: #e62739;
+    background: #16b84e;
     width: 150px;
     height: 50px;
     padding: 12px;
@@ -100,11 +100,13 @@ body {
     box-shadow: -1px 9px 58px -10px rgba(0,0,0,1);
 }
 .banner-btn:hover {
-    background: #c00014;
+    background: #87e990;
 
 }
 .main {
-    background-color: #e8edf3;
+    background: url(../img/15.png);
+    background-size:  cover;
+    background-position: center;
     width: 100%;
     height: 600px;
     padding-top: 15%;
@@ -124,7 +126,7 @@ body {
 }
 .main input[type=submit] {
     cursor: pointer;
-    background: #e62739;
+    background: #16b84e;
     border: none;
     width: 30%;
     padding: 12px;
@@ -134,7 +136,7 @@ body {
     box-shadow: -1px 9px 58px -10px rgba(0,0,0,1);
 }
 .main input[type=submit]:hover {
-    background-color: #c00014;
+    background-color: #87e990;
 }
 .main input[value="GO"] {
     color: #ffffff;
@@ -151,7 +153,7 @@ body {
 /* Footer */
 .end {
     width: 100%;
-    background-color: #e62739;
+    background-color: #16b84e;
     padding: 1em;
 }
 .f-content {
