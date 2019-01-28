@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Thasadith', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 body {
     scroll-behavior: smooth;
@@ -76,12 +76,25 @@ body {
     grid-template-rows: 1fr;
     justify-items: center;
     padding-top: 15%;
+    color: #fff;
 }
-
+.banner-title h1 {
+    text-align:  center;
+    text-transform: capitalize;
+    font-size: 4.5em;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+.banner-title h1 span:nth-child(2){
+    color: #16b84e;
+}
 .banner-title p {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 46px;
     color: #fff;
+}
+.banner-title p span:nth-child(1),.banner-title p span:nth-child(2) {
+    font-family: 'Thasadith';
 }
 .banner-btn {
     text-decoration: none;
@@ -116,9 +129,22 @@ body {
     margin: 0 auto;
 }
  .main input[type=text] {
-    width: 100%;
+    width: 90%;
     padding: 20px;
     border: 1px solid #cfcfcf;
+    border-right:none; 
+}
+.ga{
+    font-weight: bold;
+    font-size: 16px;
+    color: #92989b;
+    display:  inline-block;
+    width: 10%;
+    background: #fff;
+    padding: 1.2em;
+    border:  1px solid #cfcfcf;
+    border-left: none;
+
 }
 .submit {
     margin: 20px;
@@ -143,11 +169,11 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
-
-.main input[value^=".ga"] {
-    font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 18px;
-    text-align: right;
+::-webkit-input-placeholder {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
 /* Footer */
@@ -168,6 +194,7 @@ body {
     display:  inline-block;
 }
 .f-links li, .f-links li a {
+    font-size: 18px;
     text-align: center;
     text-decoration: none;
     color: #fff;

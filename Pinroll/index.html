@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home</title>
+    <!-- Styles -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/js/particlesJs/demo/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+  </body>
+  <!-- JS script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="assets/js/particlesJs/demo/js/app.js"></script>
+  <script>
+    M.AutoInit();
+    document.addEventListener("DOMContentLoaded", function() {
+      var elems = document.querySelectorAll(".fixed-action-btn");
+      var instances = M.FloatingActionButton.init(elems, {
+        direction: "left",
+        hoverEnabled: false
+      });
+
+      var elems = document.querySelectorAll(".sidenav");
+      var instances = M.Sidenav.init(elems, {
+        edge: "right"
+      });
+    });
+
+    var count_particles, stats, update;
+    stats = new Stats();
+    stats.setMode(0);
+    stats.domElement.style.position = "absolute";
+    stats.domElement.style.left = "0px";
+    stats.domElement.style.top = "0px";
+    document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector(".js-count-particles");
+    update = function() {
+      stats.begin();
+      stats.end();
+      if (
+        window.pJSDom[0].pJS.particles &&
+        window.pJSDom[0].pJS.particles.array
+      ) {
+        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+      }
+      requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+  </script>
+</html>
