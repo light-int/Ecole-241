@@ -1,4 +1,5 @@
- @import url('https://fonts.googleapis.com/css?family=Amiri|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Lora|Poppins|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Sarabun:100');
  *{
   color: dimgrey;
  }
@@ -6,7 +7,10 @@
  body {
    margin: 0;
    padding: 0;
-   font-family: "poppins", serif;
+   font-family: "Sarabun", serif;
+   font-size: 14px;
+   line-height: 20px;
+   font-weight: 400;
  }
 
  .btn-custom,
@@ -147,10 +151,13 @@
  }
 
  .title {
-   font-family: "Amiri";
-   font-size: 1.5rem;
-   font-weight: 600;
-   color: dimgrey;
+   font-family: "Lora", serif;
+   font-size: 18px;
+   line-height: 28.8px
+   font-style: italic;
+   font-weight: 700;
+   color: #898989;
+   letter-spacing: 4px;
    margin-bottom: 20px;
  }
 
@@ -159,6 +166,8 @@
       } */
 
  .name .big-title {
+   color: #000;
+   font-family: 'Poppins', sans-serif;
    font-size: 5rem;
    font-weight: 700;
    -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 0.9s both;
@@ -168,29 +177,43 @@
  }
 
  .med-title {
-   font-size: 3rem;
+   font-size: 40px;
    font-weight: 700;
-   color: rgb(53, 52, 52);
+   line-height: 56px;
+   color: #333;
+   letter-spacing: 1px;
  }
 
  .dim-text {
-   font-size: 1.1rem;
-   color: dimgrey;
-   font-weight: 100;
+   font-family: 'Sarabun', serif;
+   font-size: 18px;
+   color: #333;
+   font-weight: 400;
+   line-height: 28.8px;
    margin-bottom: 50px;
    -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 0.9s both;
    animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 1.3s both;
  }
+  .dark-text {
+   font-family: 'Poppins', sans-serif;
+   font-size: 14px;
+   color: #333;
+   font-weight: 600;
+   line-height: 15.4px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+ }
 
  .name .btn-border {
+   font-family: 'Poppins', sans-serif;
    display: block;
-   font-size: 1.2rem;
+   font-size: 14px;
    padding: 0.9rem;
-   font-weight: 500;
-   color: rgb(53, 52, 52);
-   border: 2px solid rgb(53, 52, 52);
-   width: 50%;
-   height: 50px;
+   font-weight: 600;
+   color: #202020;
+   border: 2px solid #202020;
+   width: 30%;
+   height: 47px;
    background: #fff;
    margin: 0px auto;
    transition: 0.5s;
@@ -199,7 +222,7 @@
  }
 
  .btn-border:hover {
-   background: rgb(53, 52, 52);
+   background: #202020;
    color: #fff;
  }
 
@@ -217,10 +240,10 @@
  }
 
  .hire p a {
-   color: rgb(53, 52, 52);
+   color: #202020;
    margin-left: 30px;
-   font-size: 1.1rem;
-   font-weight: 800;
+   font-size: 16px;
+   font-weight: 700;
  }
 
  .social {
@@ -248,16 +271,23 @@
  }
 
  .number {
-   font-size: 3.8rem;
+  font-family: 'Poppins', sans-serif;
+   font-size: 63px;
    font-weight: 700;
-   color: rgb(53, 52, 52);
+   line-height: 69.3px;
+   color: #333;
    margin-bottom: 0px;
  }
 
  .tiny-text {
-   font-size: 1.1rem;
-   color: dimgrey;
+   font-family: 'Sarabun', sans-serif;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 0.6);
    margin-top: 0px;
+   line-height: 20px;
+   letter-spacing: 2px;
+   font-weight: 400;
+   text-transform: uppercase;
  }
 
  .services,
@@ -283,19 +313,19 @@
     width: 60px;
   }
  .tiny-title {
-   font-weight: 800;
-   font-size: 1.2rem;
-   margin: 0;
- }
-
- .progression p {
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px;
    font-weight: 700;
+   color: #333;
+   margin: 5px 0 0 0;
+   line-height: 18.9px;
+   letter-spacing: 2px;
    text-transform: uppercase;
  }
 
  .progress {
    height: 14px !important;
-   border: 1px solid black;
+   border: 1px solid #8989;
    background-color: #fff !important;
  }
 
