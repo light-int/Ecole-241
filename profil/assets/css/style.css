@@ -1,4 +1,7 @@
  @import url('https://fonts.googleapis.com/css?family=Amiri|Poppins');
+ *{
+  color: dimgrey;
+ }
  html,
  body {
    margin: 0;
@@ -13,17 +16,13 @@
  h3,
  h4,
  h5,
- h6 {
+ h6,
+ p {
    font-family: "Poppins", sans-serif;
  }
 
  section {
    padding: 80px;
- }
-
- .main {
-   width: 100%;
-   box-sizing: border-box;
  }
 
  .aside {
@@ -152,7 +151,7 @@
    font-size: 1.5rem;
    font-weight: 600;
    color: dimgrey;
-   margin-bottom: 40px;
+   margin-bottom: 20px;
  }
 
  /* #home {
@@ -262,7 +261,9 @@
  }
 
  .services,
- .surprising {
+ .surprising,
+ .call 
+  {
    margin-top: 60px;
    margin-bottom: 40px;
  }
@@ -271,7 +272,16 @@
    font-size: 5rem;
    height: 30px;
  }
+.services p{
+  color: dimgrey;
+}
+ .call {
+  padding: 1rem;
+ }
 
+  .flaticon {
+    width: 60px;
+  }
  .tiny-title {
    font-weight: 800;
    font-size: 1.2rem;
@@ -295,7 +305,7 @@
  }
 
  .mbt50 {
-   margin: 50px 0px 90px 0px;
+   margin: 30px 0px 90px 0px;
  }
 
  .card-action a {
@@ -315,6 +325,14 @@
    height: 250px;
  }
 
+ .btn-black {
+    color: rgb(53, 52, 52);
+    font-size: 1.1rem;
+    font-weight: 800;
+ }
+.mb-20 {
+  margin-bottom: 20px;
+}
  /* ================================================================================== */
 
  .cssload-wrench {

@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- ionicons -->
     <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- Flaticons -->
+    <link rel="stylesheet" href="assets/css/flaticon/flaticon.css">
   </head>
   <body>
     <!-- All Content -->
@@ -40,11 +42,11 @@
 
             <div class="m-links">
               <ul>
-                <li><a class="liens" href="#home">Accueil</a></li>
-                <li><a class="liens" href="#about">A propos</a></li>
-                <li><a class="liens" href="#realisation">Realisation</a></li>
+                <li><a class="liens" id="accueil" href="#home">Accueil</a></li>
+                <li><a class="liens" id="apropos" href="#about">A propos</a></li>
+                <li><a class="liens" id="rea" href="#realisation">Realisation</a></li>
                 <li><a class="liens" href="">Blog</a></li>
-                <li><a class="liens" href="">Contact</a></li>
+                <li><a class="liens" id="contact" href="#contact">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -52,226 +54,91 @@
         <div class="hamburger hamburger--emphatic menu">
           <div class="hamburger-box"><div class="hamburger-inner"></div></div>
         </div>
-
-        <!-- ACCUEIL -->
-        <section id="home">
-          <div class="name">
-            <h1 class="big-title">Billy Marc</h1>
-            <p class="dim-text">Web designer & Developpeur Front-End</p>
-            <a href="#about" class="btn-border">Voir Profile</a>
-          </div>
-          <div class="recrut fade-in-bottom">
-            <div class="hire">
-              <p><a href="#">RECRUTEZ MOI</a></p>
-            </div>
-            <div class="social">
-              <p><i class="fa fa-facebook-f"></i></p>
-            </div>
-          </div>
-        </section>
-
-        <!-- A PROPOS -->
-        <section id="about" class="fade-in-bottom">
-          <div class="main">
-            <div class="about mbt50">
-              <h4 class="title">A propos</h4>
-              <p class="med-title">Je suis Billy Marc, un developpeur web & Web designer</span>
-                <p class="dim-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aut,
-                  eius nihil eligendi officiis architecto culpa aliquam repellendus
-                  ipsa? Recusandae cupiditate quasi praesentium saepe quos
-                  repudiandae earum
-                </p>
-            </div>
-            <!-- surprising -->
-            <div class="surprising mbt50">
-              <h4 class="title">Les Faits Surprenants</h4>
-              <div class="row">
-                <div class="col s4">
-                  <div class="num-people">
-                    <h4 class="number">03</h4>
-                    <p class="tiny-text">Clients satisfaits</p>
-                  </div>
-                </div>
-                <div class="col s4">
-                  <div class="num-people">
-                    <h4 class="number">02</h4>
-                    <p class="tiny-text">Recompences</p>
-                  </div>
-                </div>
-                <div class="col s4">
-                  <div class="num-people">
-                    <h4 class="number">100</h4>
-                    <p class="tiny-text">Likes</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Services -->
-            <div class="services mbt50">
-              <h4 class="title">Services que je fournis</h4>
-              <div class="row">
-                <div class="col s12 m6">
-                  <div class="service">
-                    <i class="icon ion-ios-code-working"></i>
-                    <h4 class="tiny-title">Programmation</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-                <div class="col s12 m6">
-                  <div class="service">
-                    <i class="icon ion-ios-search"></i>
-                    <h4 class="tiny-title">Recherche</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-                <div class="col s12 m6">
-                  <div class="service">
-                    <i class="icon ion-ios-bulb"></i>
-                    <h4 class="tiny-title">Creativite</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-                <div class="col s12 m6">
-                  <div class="service">
-                    <i class="icon ion-ios-pie"></i>
-                    <h4 class="tiny-title">Annalyse</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Skills -->
-            <div class="skills mbt50">
-              <h4 class="title">Competences</h4>
-              <div class="row">
-                <div class="col s12">
-                    <div class="progression">
-                      <p>html</p>
-                      <div class="progress">
-                        <div class="determinate" style="width: 80%"></div>
-                      </div>
-                    </div><div class="progression">
-                      <p>css</p>
-                      <div class="progress">
-                        <div class="determinate" style="width: 60%"></div>
-                      </div>
-                    </div>
-                    <div class="progression">
-                      <p>Javascript</p>
-                      <div class="progress">
-                        <div class="determinate" style="width: 50%"></div>
-                      </div>
-                    </div>
-                    <div class="progression">
-                      <p>Jquery</p>
-                      <div class="progress">
-                        <div class="determinate" style="width: 70%"></div>
-                      </div>
-                    </div>
-                    <div class="progression">
-                      <p>Angular</p>
-                      <div class="progress">
-                        <div class="determinate" style="width: 25%"></div>
-                      </div>
-                    </div>
-                    <div class="progression">
-                      <p>NodeJS</p>
-                      <div class="progress">
-                        <div class="determinate" style="width: 20%"></div>
-                      </div>
-                    </div>
-                    <div class="progression">
-                      <p>Wordpress</p>
-                      <div class="progress">
-                        <div class="determinate" style="width: 40%"></div>
-                      </div>
-                    </div>
-                    <div class="progression">
-                      <p>php</p>
-                      <div class="progress">
-                        <div class="determinate" style="width: 30%"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              
-            </div>
-          </div>
-        </section>
-
-        <section id="realisation" class="fade-in-bottom">
-          <div class="realisation mbt50">
-            <h4 class="title">Mes realisations</h4>
-            <div class="row">
-              <div class="col s6 m6">
-                <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator materialboxed" src="http://bwedi.com/assets/images/Untitled4.jpg" >
-                    <span class="card-title">BWEDI</span>
-                  </div>
-                  <div class="card-action">
-                    <a href="http://bwedi.com">Se diriger</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col s6 m6">
-                <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator materialboxed" src="http://avoo1.com/assets/images/index_background2.jpg">
-                    <span class="card-title">AVOO</span>
-                  </div>
-                  <div class="card-action">
-                    <a href="https://avoo1.com">Se diriger</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col s6 m6">
-                <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="assets/img/cv.png">
-                    <span class="card-title">Job Connect</span>
-                  </div>
-                  <div class="card-action">
-                    <a href="http://jobconnect.pro">Se diriger</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col s6 m6">
-                <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="http://lorempixel.com/335/250/people">
-                    <span class="card-title">Card Title</span>
-                  </div>
-                  <div class="card-action">
-                    <a href="#">Se diriger</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div id="content"></div>
       </div>
     </div>
     <!-- Materialize Js -->
     <script src="assets/js/materialize/js/materialize.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script>
+
+      function main() {
+        $.ajax({
+          url:'main.html',
+          type:'get',
+          dataType:'html',
+          success: function(data) {
+            $('#content').html(data);
+          }
+        })
+      }
+
+      function apropos() {
+        $.ajax({
+          url:'apropos.html',
+          type:'get',
+          dataType:'html',
+          success: function(data) {
+            $('#content').html(data);
+          }
+        })
+      }
+
+      function realisation() {
+        $.ajax({
+          url:'realisations.html',
+          type:'get',
+          dataType:'html',
+          success: function(data) {
+            $('#content').html(data);
+          }
+        })
+      }
+
+      function contact() {
+        $.ajax({
+          url:'contact.html',
+          type:'get',
+          dataType:'html',
+          success: function(data) {
+            $('#content').html(data);
+          }
+        })
+      }
+
       $(document).ready(function() {
+        main();
+
+        $("#accueil").click(function() {
+          main();
+        });
+
+        $("#apropos").click(function() {
+          apropos();
+        });
+
+        $("#rea").click(function() {
+          realisation();
+        });
+
+        $("#contact").click(function() {
+          contact();
+        });
+
         $(".menu").click(function() {
           $(".p-menu").toggle();
         });
+
+        $('.liens').click(function() {
+          $('.hamburger').trigger('click');
+          });
       });
-      
       var forEach = function(t, o, r) {
         if ("[object Object]" === Object.prototype.toString.call(t))
           for (var c in t)
             Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
         else for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t);
       };
-      var links = document.querySelectorAll(".liens");
       var hamburgers  = document.querySelectorAll(".hamburger");
       if (hamburgers.length > 0) {
         forEach(hamburgers, function(hamburger) {
@@ -284,17 +151,6 @@
           );
         });
       }
-      if (links.length > 0) {
-          forEach(links, function (link) {
-            link.addEventListener(
-              "click",
-              function () {
-                this.classList.toggle("is-active");
-              },
-              false
-            );
-          });
-        }
 
       document.addEventListener('DOMContentLoaded', function () {
           var elems = document.querySelectorAll('.materialboxed');
