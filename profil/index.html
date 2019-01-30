@@ -33,7 +33,7 @@
   <body>
     <!-- All Content -->
     <div class="main">
-      <div class="aside">
+      <div class="aside" id="side">
         <div class="p-img"></div></div>
       <div class="content">
         <div class="p-menu animated fadeIn">
@@ -43,11 +43,11 @@
 
             <div class="m-links">
               <ul>
-                <li><a class="liens" id="accueil" href="#home">Accueil</a></li>
-                <li><a class="liens" id="apropos" href="#about">A propos</a></li>
-                <li><a class="liens" id="rea" href="#realisation">Realisation</a></li>
-                <li><a class="liens" href="">Blog</a></li>
-                <li><a class="liens" id="contact" href="#contact">Contact</a></li>
+                <li><a class="liens" id="accueil" data-text="Accueil" href="#home">Accueil</a></li>
+                <li><a class="liens" id="apropos" data-text="A propos" href="#about">A propos</a></li>
+                <li><a class="liens" id="rea" data-text="Mes realisations" href="#realisation">Realisation</a></li>
+                <li><a class="liens" href="" data-text="Blog">Blog</a></li>
+                <li><a class="liens" id="contact" data-text="Contact" href="#contact">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -70,6 +70,10 @@
           dataType:'html',
           success: function(data) {
             $('#content').html(data);
+            $('#side').addClass("bg-img1");
+            $('.liens').click(function() {
+              $('#side').removeClass('bg-img1');
+            });
           }
         })
       }
@@ -81,6 +85,10 @@
           dataType:'html',
           success: function(data) {
             $('#content').html(data);
+            $('#side').addClass("bg-img2");
+            $('.liens').click(function() {
+              $('#side').removeClass('bg-img2');
+            });
           }
         })
       }
@@ -92,6 +100,10 @@
           dataType:'html',
           success: function(data) {
             $('#content').html(data);
+            $('#side').addClass("bg-img3");
+            $('.liens').click(function() {
+              $('#side').removeClass('bg-img3');
+            });
           }
         })
       }
@@ -103,6 +115,10 @@
           dataType:'html',
           success: function(data) {
             $('#content').html(data);
+            $('#side').addClass("bg-img4");
+            $('.liens').click(function() {
+              $('#side').removeClass('bg-img4');
+            });
           }
         })
       }
