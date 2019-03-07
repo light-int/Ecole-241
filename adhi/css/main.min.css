@@ -50,7 +50,9 @@ h6,
 html {
     font-family: Poppins, Arial, "Helvetica Neue", sans-serif
 }
-
+.logo1{
+    width: 130px;
+}
 .au-rating,
 .box--beside .box__head {
     float: left
