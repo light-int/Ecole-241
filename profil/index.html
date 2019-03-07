@@ -29,6 +29,7 @@
     <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
     <!-- Flaticons -->
     <link rel="stylesheet" href="assets/css/flaticon/flaticon.css">
+    <script src="assets/js/greensock/TweenMax.min.js"></script>
   </head>
   <body>
     <!-- All Content -->
@@ -62,6 +63,18 @@
     <script src="assets/js/materialize/js/materialize.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script>
+      window.onload = function() {
+      TweenMax.from('#side', 1.5, { ease: Bounce.easeOut, x:-400});
+      TweenMax.from('#content', 2.5, { ease: Bounce.easeOut, x:400});
+      TweenMax.from('.hamburger', 2.5, { ease: Bounce.easeOut, x:400, delay:1, opacity:0});
+    }
+      function manim () {
+        $('.liens').click(function(){
+          TweenMax.from('#side', 1.5, { ease: Bounce.easeOut, x:-400});
+          TweenMax.from('#content', 2.5, { ease: Bounce.easeOut, x:400});
+          TweenMax.from('.hamburger', 2.5, { ease: Bounce.easeOut, x:400, delay:1, opacity:0});
+        });
+      }
 
       function main() {
         $.ajax({
