@@ -157,6 +157,18 @@ button {
     background: url(../images/bg-pattern-01.jpg) center center/cover no-repeat fixed
 }
 
+.bg-pattern-02 {
+    background: url(../images/img/banner1.jpeg)center no-repeat fixed
+}
+
+.bg-pattern-03 {
+    background: url(../images/img/4.jpg)center no-repeat fixed
+}
+
+.bg-pattern-04 {
+    background: url(../images/img/5.jpg)center no-repeat fixed
+}
+
 .block-revealer {
     position: absolute;
     top: 0;
@@ -7408,7 +7420,7 @@ button {
 }
 
 .bg-image-3 {
-    background: url(../images/bg-coming.jpg) center center/cover no-repeat
+    background: url(../images/img/1.jpeg) center center/cover no-repeat
 }
 
 .bg-c2 {
