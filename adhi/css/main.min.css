@@ -169,6 +169,10 @@ button {
     background: url(../images/img/5.jpg)center no-repeat fixed
 }
 
+.bg-pattern-05 {
+    background: url(../images/img/5.jpg)center no-repeat fixed
+}
+
 .block-revealer {
     position: absolute;
     top: 0;
