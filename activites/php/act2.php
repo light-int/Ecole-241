@@ -63,7 +63,7 @@
                   <li><?= $all[3] ?></li>
                 </ul>
                 <b>Le crie: </b><?= $oka_crie->crie() ?> - <em><?php var_dump($oka_crie); ?></em><br>
-                <b>Sont-il pret a toute eventualite? </b><?= $true ?> - <em><?php var_dump($true); ?></em><br>
+                <b>Sont-ils pret a toute eventualite? </b><?= $true ?> - <em><?php var_dump($true); ?></em><br>
                 <b>Que pensez-vous des proverbes du commandant BOBO:</b> Ils sont <em><?php var_dump($N); ?></em>
               </p>
 
