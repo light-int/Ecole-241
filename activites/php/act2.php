@@ -3,7 +3,7 @@
   // -----------------------------------------
 
   // String
-  $title = "ACT1";
+  $title = "ACT2";
   $oka   = "okacode";
   // integer
   $num   = 22;
@@ -49,7 +49,7 @@
             <img src="http://www.bluthemes.com/assets/img/blog/12/bullseye.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <!-- Affichage OKA -->
-              <h1 class="card-title text-center"><?php $oka ?></h1>
+              <h1 class="card-title text-center"><?= $oka ?></h1>
               <p class="text-center"><em><?php var_dump($oka); ?></em></p>
               <p>
                 <b>Nombre: </b><?= $num ?> - <em><?php var_dump($num); ?></em><br>
