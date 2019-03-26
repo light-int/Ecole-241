@@ -10,7 +10,7 @@
   // float
   $moy   = 60.75;
   // tableau
-  $all   = ['ivan', 'Sensei', 'Capitaine','etc...'];
+  $all   = ['ivan', 'Sensei', 'Capitaine','etc.'];
   // Objets
   class oka
   {
