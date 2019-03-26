@@ -49,22 +49,22 @@
             <img src="http://www.bluthemes.com/assets/img/blog/12/bullseye.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <!-- Affichage OKA -->
-              <h1 class="card-title text-center"><?= $oka ?></h1>
-              <p class="text-center"><em><?= var_dump($oka); ?></em></p>
+              <h1 class="card-title text-center"><?php $oka ?></h1>
+              <p class="text-center"><em><?php var_dump($oka); ?></em></p>
               <p>
-                <b>Nombre: </b><?= $num ?> - <em><?= var_dump($num); ?></em><br>
-                <b>Moyenne: </b><?= $moy ?> - <em><?= var_dump($moy); ?></em><br>
+                <b>Nombre: </b><?= $num ?> - <em><?php var_dump($num); ?></em><br>
+                <b>Moyenne: </b><?= $moy ?> - <em><?php var_dump($moy); ?></em><br>
                 <b>Apprenants:</b><br>
-                <em><?= $moy; var_dump($all); ?></em>
+                <em><?= var_dump($all); ?></em>
                 <ul>
                   <li><?= $all[0] ?></li>
                   <li><?= $all[1] ?></li>
                   <li><?= $all[2] ?></li>
                   <li><?= $all[3] ?></li>
                 </ul>
-                <b>Le crie: </b><?= $oka_crie->crie() ?> - <em><?= var_dump($oka_crie); ?></em><br>
-                <b>Sont-il pret a toute eventualite? </b><?= $true ?> - <em><?= var_dump($true); ?></em><br>
-                <b>Que pensez-vous des proverbes du commandant BOBO:</b> Ils sont <em><?= var_dump($N); ?></em>
+                <b>Le crie: </b><?= $oka_crie->crie() ?> - <em><?php var_dump($oka_crie); ?></em><br>
+                <b>Sont-il pret a toute eventualite? </b><?= $true ?> - <em><?php var_dump($true); ?></em><br>
+                <b>Que pensez-vous des proverbes du commandant BOBO:</b> Ils sont <em><?php var_dump($N); ?></em>
               </p>
 
             </div>
