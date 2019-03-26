@@ -50,7 +50,7 @@
             <div class="card-body">
               <!-- Affichage OKA -->
               <h1 class="card-title text-center"><?= $oka ?></h1>
-              <p><em class="text-center"><?= var_dump($oka); ?></em></p>
+              <p class="text-center"><em><?= var_dump($oka); ?></em></p>
               <p>
                 <b>Nombre: </b><?= $num ?> - <em><?= var_dump($num); ?></em><br>
                 <b>Moyenne: </b><?= $moy ?> - <em><?= var_dump($moy); ?></em><br>
